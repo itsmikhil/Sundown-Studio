@@ -53,7 +53,7 @@ body{
     position: absolute;
     display: none;
     top: -100%;
-    transition: all linear 0.2s;
+    transition: all ease 0.7s;
 }
 .full-scr .navs{
     padding-top: 15vh;
@@ -489,7 +489,7 @@ nav .options a:hover{
     font-size: 18px;
     display: flex;
     height: 40vh;
-    width: auto;
+    width: 20vw;
     margin-top: 10vh;
     border-right: 1px solid #777;
     flex-direction: column;

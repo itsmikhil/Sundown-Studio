@@ -37,7 +37,7 @@ function loaderAnimation() {
     delay: 0.5,
   });
   tl.to(loader, {
-    top: "-100%",
+    top: "-130%",
     duration: 0.4,
     delay: 0.1,
   });
@@ -99,7 +99,7 @@ panelAnimation();
 
 var swiper = new Swiper(".mySwiper", {
   initialSlide: 1,
-  slidesPerView: 4,
+  slidesPerView: "auto",
   spaceBetween: 30,
   centeredSlides: true,
 });
