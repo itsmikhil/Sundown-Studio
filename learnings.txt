@@ -1,0 +1,5 @@
+->Js Logic of panel
+->Js logic of fixed box animation
+->use of filter:blur() to give beautiful touch to website
+->how footer is placed so that the curtain going up effect is created
+->creaing another strcuture for mobile version for fixed box animation
