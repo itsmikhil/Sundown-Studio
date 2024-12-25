@@ -31,7 +31,8 @@ body{
     justify-content: center;
     align-items: center;
     /* transition: all 0.3s linear 0s; */
-    display: none;
+    /* display: none; */
+    z-index: 999;
 }
 .loader h1{
     background: rgb(255,69,0);

@@ -2,7 +2,7 @@ function loaderAnimation() {
   let loader = document.querySelector(".loader");
   let h1s = loader.querySelectorAll(".loader h1");
   let tl = gsap.timeline();
-
+  
   tl.to(h1s[0], {
     opacity: 1,
     duration: 0.2,
@@ -43,7 +43,8 @@ function loaderAnimation() {
   });
 }
 
-loaderAnimation();
+loaderAnimation();  // Call the function
+
 
 const scroll = new LocomotiveScroll({
   el: document.querySelector(".main"),
@@ -98,7 +99,7 @@ panelAnimation();
 
 var swiper = new Swiper(".mySwiper", {
   initialSlide: 1,
-  slidesPerView: "auto",
+  slidesPerView: 4,
   spaceBetween: 30,
   centeredSlides: true,
 });
