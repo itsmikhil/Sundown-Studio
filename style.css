@@ -195,7 +195,7 @@ nav .options a:hover{
     top: 80vh;
     right: 20vw;
     z-index: 10;
-    animation: motion 1.5s ease-out 0s infinite alternate forwards;
+    animation: motion 1.15s ease-out 0s infinite alternate forwards;
     filter: blur(30px);
 }
 @keyframes motion {
@@ -331,7 +331,7 @@ nav .options a:hover{
     left: 25vw;
     top: 15vh;
     filter: blur(20px);
-    animation: motion2 2s linear 0s infinite alternate forwards;
+    animation: motion2 1.5s linear 0s infinite alternate forwards;
 }
 @keyframes motion2 {
     0%{
@@ -593,7 +593,7 @@ form input{
     left: -10%;
     transform: rotate(-20deg);
     filter: blur(45px);
-    animation: motion5 3s ease-out 0s infinite alternate forwards;
+    animation: motion5 2s ease-out 0s infinite alternate forwards;
 }
 .hero5{
     position: absolute;
@@ -606,7 +606,7 @@ form input{
     right: -10%;
     transform: rotate(20deg);
     filter: blur(45px);
-    animation: motion4 2.5s ease-out 0s infinite alternate forwards;
+    animation: motion4 2s ease-out 0s infinite alternate forwards;
 }
 .hero6{
     position: absolute;
@@ -619,14 +619,14 @@ form input{
     top: -30px;
     left: 45%;
     border-radius: 50%;
-    animation: motion3 2s ease-out 0s infinite alternate-reverse forwards;
+    animation: motion3 1.5s ease-out 0s infinite alternate-reverse forwards;
 }
 @keyframes motion3 {
     0%{
         transform: translate(0px,0px);
     }
     100%{
-        transform: translate(0px,10px);
+        transform: translate(0px,20px);
     }
 }
 @keyframes motion4 {
