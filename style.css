@@ -83,6 +83,7 @@ body{
     z-index: 99;
     transition: all 0.1s linear 0s;
     border-radius: 1vw;
+    pointer-events: none;
 }
 a{
     text-decoration: none;
