@@ -488,12 +488,12 @@ nav .options a:hover{
     text-align: center;
     font-size: 18px;
     display: flex;
-    height: 40vh;
+    height: auto;
     width: 20vw;
     margin-top: 10vh;
     border-right: 1px solid #777;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     /* gap: 1vh; */
   }

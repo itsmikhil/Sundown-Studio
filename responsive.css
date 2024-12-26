@@ -210,14 +210,13 @@
       }
     
       .swiper-slide {
-        height: 45vh;
+        height: auto;
         width: 65vw;
         margin-top: 10vh;
         border-right: 1px solid #777;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        /* padding-left: 6vw; */
       }
       .swiper-slide:nth-child(1){
         border-left: 1px solid #777;

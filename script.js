@@ -84,7 +84,7 @@ function panelAnimation() {
         e.style.marginLeft = ""; // Reset margin
         e.style.color = ""; // Reset color
       });
-      el.style.marginLeft = "0";
+      el.style.marginLeft = "0.5vw";
       el.style.color = "white";
       let src = el.getAttribute("src");
       let data = el.getAttribute("data");
