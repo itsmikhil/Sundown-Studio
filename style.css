@@ -13,12 +13,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: neu;
+    
 }
 body{
     height: 100%;
     width: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
+    max-width: 100vw;
 }
 .loader{
     position: absolute;
@@ -69,6 +71,7 @@ body{
 .main{
     position: relative;
     z-index: 5;
+    box-sizing: border-box;
 }
 .fixed-con{
     position: fixed;
@@ -197,7 +200,7 @@ nav .options a:hover{
     right: 20vw;
     z-index: 10;
     animation: motion 1.15s ease-out 0s infinite alternate forwards;
-    filter: blur(30px);
+    filter: blur(20px);
 }
 @keyframes motion {
     0%{
@@ -290,11 +293,11 @@ nav .options a:hover{
     position: relative;
     z-index: 10;
 }
-.about-us .left p{
+.text{
     position: relative;
     z-index: 10;
 }
-.about-us .left p img{
+ .text img{
     height: 0.5vw;
     width: 0.5vw;
     margin-right: 0.25vw;
@@ -477,6 +480,10 @@ nav .options a:hover{
     background-size: cover;
     border-top-right-radius: 4vh;
     border-bottom-right-radius: 4vh;
+}
+.add-on{
+    margin-top: 2vh;
+    margin-left: 2vw;
 }
 .swiper {
     width: 100%;
